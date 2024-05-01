@@ -1,0 +1,89 @@
+.about {
+  background-color: rgb(191 196 200);
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.left {
+  width: 60%;
+}
+
+li {
+  list-style-type: none;
+}
+
+.icone {
+  font-size: 40px;
+}
+
+.us {
+  width: 500px;
+}
+
+.giuseppe {
+  background-color: rgb(216 209 209);
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.profile {
+  width: 300px;
+}
+
+.giorgio {
+  background-color: rgb(216 209 209);
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.portfolio {
+  height: 100vh;
+  background-color: rgb(75 59 64);
+}
+
+.footer {
+  height: 100vh;
+  background-color: rgb(35 31 32);
+  color: white;
+}
+
+.img-port {
+  width: 300px;
+  height: 200px;
+}
+
+.skills {
+  width: 50px;
+}
+
+.pisa {
+  width: 600px;
+}
+
+.cv {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.michele {
+  background-color: rgb(216 209 209);
+  height: 100vh;
+  padding-top: 30px;
+}
+
+.box {
+  width: 300px;
+}
+
+.contact {
+  font-size: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+  width: 800px;
+}
+
+.code {
+  font-size: 15px;
+}
