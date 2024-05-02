@@ -1,45 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G&G</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>G&G</title>
-  <link rel="stylesheet" href="./style/style.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
-    integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-</head>
-
-<body>
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#about">ABOUT US</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav mx-auto">
-            <!-- Modifica qui -->
-            <li class="nav-item">
-              <a class="nav-link" href="#portfolio"><strong>PORTFOLIO</strong></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#blog"><strong>BLOG</strong></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#reachout"><strong>REACH OUT</strong></a>
-            </li>
-          </ul>
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#about">ABOUT US</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto">
+              <!-- Modifica qui -->
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio"
+                  ><strong>PORTFOLIO</strong></a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog"><strong>BLOG</strong></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reachout"
+                  ><strong>REACH OUT</strong></a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-  </header>
-  <div class="about d-flex justify-content-between">
+      </nav>
+    </header>
+    <!--<div class="about d-flex justify-content-between">
     <div class="left">
       <div class="info text-center">
         <code>
@@ -67,150 +85,279 @@
       </div>
     </div>
     <div class="right">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum error, nulla magnam quasi, doloribus voluptatum
-        ullam autem fugit eaque nesciunt iste asperiores laboriosam dicta debitis ipsum possimus distinctio ipsa
-        deserunt?</p>
-    </div>
-  </div>
-  <div class="giuseppe">
-    <div class="info text-center">
-      <h1>Giuseppe Muntoni</h1>
-      <p class="mt-3">
-        I'm in love with computer science at 360 degrees.
-        My focus is to make <strong>performant</strong> and <strong>resilient systems</strong>
-      </p>
-      <a class="cv text-center mt-3" href="./img/Giuseppe_Muntoni_Resume.pdf">Read my resume</a>
-    </div>
-    <div class="d-flex justify-content-around mt-5">
-      <div class="skills">
-        <h2 class="mx-5 mt-5">Technical skills</h2>
-        <ul class="d-flex">
-          <li class="mx-3 mt-5" title="cliccami"><a href="https://github.com/giuseppe-muntoni"><img class="skills"
-                src="./img/github_original_wordmark_logo_icon_146506.png" alt=""></a>
-          </li>
-          <li class="mx-3 mt-5"><img class="skills" src="./img/java_original_wordmark_logo_icon_146459.png" alt=""></li>
-          <li class="mx-3 mt-5"><img class="skills" src="./img/mysql_original_wordmark_logo_icon_146417.png" alt="">
-          </li>
-          <li class="mx-3 mt-5"><img class="skills" src="./img/python_18894.png" alt=""></li>
-          <li class="mx-3 mt-5"><img class="skills" src="./img/html_original_wordmark_logo_icon_146478.png" alt=""></li>
-        </ul>
-      </div>
-      <div class="profile">
-        <img class="profile" src="./img/giuseppe.jpeg" alt="">
-      </div>
-    </div>
-  </div>
-  <div class="giorgio mt-2" id="about">
-    <div class="info text-center">
-      <h1>Giorgio Perez</h1>
-      <p class="mt-3">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
-        commodi facere eum. Placeat aut labore sint iure corrupti, ipsam
-        atque?
-      </p>
-      <a class="cv text-center" href="./img/Giorgio-PerezCV.pdf">Read my resume</a>
-    </div>
-    <div class="d-flex justify-content-around mt-5">
-      <div class="skills">
-        <h2 class="mx-5 mt-5">Technical skills</h2>
-        <ul class="d-flex">
-          <li class="mx-3 mt-5" title="cliccami"><a href="https://github.com/giorgiop62"><img class="skills"
-                src="./img/github_original_wordmark_logo_icon_146506.png" alt=""></a>
-          </li>
-          <li class="mx-3 mt-5"><img class="skills" src="./img/html_original_wordmark_logo_icon_146478.png" alt=""></li>
-          <li class="mx-3 mt-5"><img class="skills" src="./img/javascript_icon_130900.png" alt=""></li>
-          <li class="mx-3 mt-5"><img class="skills" src="./img/laravel_plain_wordmark_logo_icon_146439.png" alt=""></li>
-          <li class="mx-3 mt-5"><img class="skills" src="./img/php_icon_130857.png" alt=""></li>
-          <li class="mx-3 mt-5"><img class="skills" src="./img/file_type_vue_icon_130078.png" alt=""></li>
-
-        </ul>
-      </div>
-      <div class=" profile">
-        <img class="profile" src="./img/me stessso.jpg" alt="">
-      </div>
-    </div>
-  </div>
-  <div class="michele mt-2">
-    <div class="info text-center">
-      <h1>Michele Benigni</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
-        commodi facere eum. Placeat aut labore sint iure corrupti, ipsam
-        atque?
-      </p>
-      <a class=" cv text-center" href="./img/Giorgio-PerezCV.pdf">Read my resume</a>
-    </div>
-    <div class="d-flex justify-content-around mt-5">
-      <div class="skills">
-        <h2 class="mx-5 mt-5">Technical skills</h2>
-        <ul class="d-flex">
-          <li class="mx-3 mt-5" title="cliccami"><a href="https://github.com/michelebenigniDoit"><img class="skills"
-                src="./img/github_original_wordmark_logo_icon_146506.png" alt=""></a>
-          </li>
-          <li class="mx-3 mt-5"><img class="skills" src="./img/html_original_wordmark_logo_icon_146478.png" alt=""></li>
-          <li class="mx-3 mt-5"><img class="skills" src="./img/javascript_icon_130900.png" alt=""></li>
-          <li class="mx-3 mt-5"><img class="skills" src="./img/laravel_plain_wordmark_logo_icon_146439.png" alt=""></li>
-          <li class="mx-3 mt-5"><img class="skills" src="./img/php_icon_130857.png" alt=""></li>
-          <li class="mx-3 mt-5"><img class="skills" src="./img/figma_logo_icon_147289.png" alt=""></li>
-          <li class="mx-3 mt-5"><img class="skills"
-              src="./img/1485282157-adobe-photoshop-raster-graphics-editor-cc-creative-cloud_78285.png" alt=""></li>
-
-
-        </ul>
-      </div>
-      <div class=" profile">
-        <img class="profile" src="./img/WhatsApp Image 2024-04-30 at 15.24.22.jpeg" alt="">
-      </div>
-    </div>
-  </div>
-
-
-  <div class="portfolio mt-2" id="portfolio">
-    <h1 class="text-center text-white pt-5">OUR PORTFOLIO</h1>
-    <div class="container d-flex justify-content-around">
-      <div class="box mt-5">
-        <img class="img-port" src="./img/violinome.jpg" alt="">
-        <p class="text-white mt-4">For a musician client, we created a fully responsive website. It features a personal
-          login so that he can access a dashboard to enter concert dates.</p>
-        <a class="text-secondary" href="https://www.alfredopumilia.com/">https://www.alfredopumilia.com</a>
-      </div>
-      <div class="box mt-5">
-        <img class="img-port" src="./img/5.jpg" alt="">
-        <p class="text-white mt-4 ">For a masseur client, we created a completely showcase site
-          responsive.</p>
-        <a class="text-secondary" href="https://www.maydaymassage.it/home">https://www.maydaymassage.it</a>
-      </div>
-    </div>
-  </div>
-  <div class="footer mt-2" id="reachout">
-    <div class="container d-flex justify-content-around pt-5">
-      <div class="pisa mt-5">
-        <img class="pisa" src="./img/Pisa-Kobra-Murales.jpg" alt="">
-      </div>
-      <div class="contact mt-5">
-        <h1 class="mt-3">REACH OUT</h1>
-        <div class="mt-5">
-          <ul>
-            <li class="contact mt-3"><strong>Numero:</strong> 3505255178</li>
-            <li class=" contact mt-3"><strong>Email:</strong> giorgiop62@gmail.com</li>
-            <li class=" contact mt-3"><strong>Luogo:</strong> Remoto</li>
-
-          </ul>
-
-
+      <div class="info d-flex">
+        <img class="img-about" src="./img/giuseppe.jpeg" alt="">
+        <div class="info">
+          Informazioni su Giuseppe
         </div>
-
+        <img class="img-about" src="./img/giorgio.jpeg" alt="">
+        <div class="info">
+          Informazioni su Giorgio
+        </div>
+        <img class="img-about" src="./img/WhatsApp Image 2024-04-30 at 15.24.22.jpeg" alt="">
+        <div class="info">
+          Altre informazioni
+        </div>
       </div>
-
+    </div>
+  </div>-->
+    <div class="giuseppe">
+      <div class="info text-center">
+        <h1>Giuseppe Muntoni</h1>
+        <p class="mt-3">
+          I'm in love with computer science at 360 degrees. My focus is to make
+          <strong>performant</strong> and <strong>resilient systems</strong>
+        </p>
+        <a class="cv text-center mt-3" href="./img/Giuseppe_Muntoni_Resume.pdf"
+          >Read my resume</a
+        >
+      </div>
+      <div class="d-flex justify-content-around mt-5">
+        <div class="skills">
+          <h2 class="mx-5 mt-5">Technical skills</h2>
+          <ul class="d-flex">
+            <li class="mx-3 mt-5" title="cliccami">
+              <a href="https://github.com/giuseppe-muntoni"
+                ><img
+                  class="skills"
+                  src="./img/github_original_wordmark_logo_icon_146506.png"
+                  alt=""
+              /></a>
+            </li>
+            <li class="mx-3 mt-5">
+              <img
+                class="skills"
+                src="./img/java_original_wordmark_logo_icon_146459.png"
+                alt=""
+              />
+            </li>
+            <li class="mx-3 mt-5">
+              <img
+                class="skills"
+                src="./img/mysql_original_wordmark_logo_icon_146417.png"
+                alt=""
+              />
+            </li>
+            <li class="mx-3 mt-5">
+              <img class="skills" src="./img/python_18894.png" alt="" />
+            </li>
+            <li class="mx-3 mt-5">
+              <img
+                class="skills"
+                src="./img/html_original_wordmark_logo_icon_146478.png"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="profile">
+          <img class="profile" src="./img/giuseppe.jpeg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="giorgio mt-2" id="about">
+      <div class="info text-center">
+        <h1>Giorgio Perez</h1>
+        <p class="mt-3">
+          I like to mix art with technology. I am a web developer, and in my
+          free time, I dedicate myself to theater. My motto:
+          <strong>No One Excluded.</strong>
+        </p>
+        <a class="cv text-center" href="./img/Giorgio-PerezCV.pdf"
+          >Read my resume</a
+        >
+      </div>
+      <div class="d-flex justify-content-around mt-5">
+        <div class="skills">
+          <h2 class="mx-5 mt-5">Technical skills</h2>
+          <ul class="d-flex">
+            <li class="mx-3 mt-5" title="cliccami">
+              <a href="https://github.com/giorgiop62"
+                ><img
+                  class="skills"
+                  src="./img/github_original_wordmark_logo_icon_146506.png"
+                  alt=""
+              /></a>
+            </li>
+            <li class="mx-3 mt-5">
+              <img
+                class="skills"
+                src="./img/html_original_wordmark_logo_icon_146478.png"
+                alt=""
+              />
+            </li>
+            <li class="mx-3 mt-5">
+              <img
+                class="skills"
+                src="./img/javascript_icon_130900.png"
+                alt=""
+              />
+            </li>
+            <li class="mx-3 mt-5">
+              <img
+                class="skills"
+                src="./img/laravel_plain_wordmark_logo_icon_146439.png"
+                alt=""
+              />
+            </li>
+            <li class="mx-3 mt-5">
+              <img class="skills" src="./img/php_icon_130857.png" alt="" />
+            </li>
+            <li class="mx-3 mt-5">
+              <img
+                class="skills"
+                src="./img/file_type_vue_icon_130078.png"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="profile">
+          <img class="profile" src="./img/me stessso.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <div class="michele mt-2">
+      <div class="info text-center">
+        <h1>Michele Benigni</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quaerat
+          commodi facere eum. Placeat aut labore sint iure corrupti, ipsam
+          atque?
+        </p>
+        <a class="cv text-center" href="./img/Giorgio-PerezCV.pdf"
+          >Read my resume</a
+        >
+      </div>
+      <div class="d-flex justify-content-around mt-5">
+        <div class="skills">
+          <h2 class="mx-5 mt-5">Technical skills</h2>
+          <ul class="d-flex">
+            <li class="mx-3 mt-5" title="cliccami">
+              <a href="https://github.com/michelebenigniDoit"
+                ><img
+                  class="skills"
+                  src="./img/github_original_wordmark_logo_icon_146506.png"
+                  alt=""
+              /></a>
+            </li>
+            <li class="mx-3 mt-5">
+              <img
+                class="skills"
+                src="./img/html_original_wordmark_logo_icon_146478.png"
+                alt=""
+              />
+            </li>
+            <li class="mx-3 mt-5">
+              <img
+                class="skills"
+                src="./img/javascript_icon_130900.png"
+                alt=""
+              />
+            </li>
+            <li class="mx-3 mt-5">
+              <img
+                class="skills"
+                src="./img/laravel_plain_wordmark_logo_icon_146439.png"
+                alt=""
+              />
+            </li>
+            <li class="mx-3 mt-5">
+              <img class="skills" src="./img/php_icon_130857.png" alt="" />
+            </li>
+            <li class="mx-3 mt-5">
+              <img
+                class="skills"
+                src="./img/figma_logo_icon_147289.png"
+                alt=""
+              />
+            </li>
+            <li class="mx-3 mt-5">
+              <img
+                class="skills"
+                src="./img/1485282157-adobe-photoshop-raster-graphics-editor-cc-creative-cloud_78285.png"
+                alt=""
+              />
+            </li>
+          </ul>
+        </div>
+        <div class="profile">
+          <img class="profile" src="./img/benignialtro.jpeg" alt="" />
+        </div>
+      </div>
     </div>
 
+    <div class="portfolio mt-2" id="portfolio">
+      <h1 class="text-center text-white pt-5">OUR PORTFOLIO</h1>
+      <div class="container d-flex justify-content-around">
+        <div class="box mt-5">
+          <img class="img-port" src="./img/violinome.jpg" alt="" />
+          <p class="text-white mt-4">
+            For a musician client, we created a fully responsive website. It
+            features a personal login so that he can access a dashboard to enter
+            concert dates.
+          </p>
+          <a class="text-secondary" href="https://www.alfredopumilia.com/"
+            >https://www.alfredopumilia.com</a
+          >
+        </div>
+        <div class="box mt-5">
+          <img class="img-port" src="./img/5.jpg" alt="" />
+          <p class="text-white mt-4">
+            For a masseur client, we created a completely showcase site
+            responsive.
+          </p>
+          <a class="text-secondary" href="https://www.maydaymassage.it/home"
+            >https://www.maydaymassage.it</a
+          >
+        </div>
+        <div class="box mt-5">
+          <img class="img-port" src="./img/benigni.png" alt="" />
+          <p class="text-white mt-4">
+            Web app that allows you to place objects to furnish your room.
+          </p>
+          <a class="text-secondary" href="https://archimoods.com/"
+            >https://archimoods.com/</a
+          >
+        </div>
+      </div>
+    </div>
+    <div class="footer mt-2" id="reachout">
+      <div class="container d-flex justify-content-around pt-5">
+        <div class="pisa mt-5">
+          <img class="pisa" src="./img/Pisa-Kobra-Murales.jpg" alt="" />
+        </div>
+        <div class="contact mt-5">
+          <h1 class="mt-3">REACH OUT</h1>
+          <div class="mt-5">
+            <ul>
+              <li class="contact mt-3">
+                <strong>Number:</strong>
+                <a
+                  class="text-white text-decoration-none"
+                  href="tel:+393922680976"
+                  >+39 3922680976</a
+                >
+              </li>
+              <li class="contact mt-3">
+                <strong>Email:</strong>
+                <a
+                  class="text-white text-decoration-none"
+                  href="mailto:g.muntoni.cs@gmail.com"
+                  >g.muntoni.cs@gmail.com</a
+                >
+              </li>
+              <li class="contact mt-3"><strong>Address:</strong> remoto</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  </div>
-
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-    crossorigin="anonymous"></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>

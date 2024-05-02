@@ -1,7 +1,7 @@
 .about {
-  background-color: rgb(191 196 200);
   height: 100vh;
   padding-top: 30px;
+  background-image: url("../img/kindpng_6857577.png");
 }
 
 .left {
@@ -20,30 +20,33 @@ li {
   width: 500px;
 }
 
-.giuseppe {
-  background-color: rgb(216 209 209);
+.giuseppe,
+.giorgio,
+.michele {
+  background-color: rgb(216, 209, 209);
   height: 100vh;
   padding-top: 30px;
 }
-
 .profile {
-  width: 300px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+}
+.box {
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
 }
 
-.giorgio {
-  background-color: rgb(216 209 209);
-  height: 100vh;
-  padding-top: 30px;
+.profile,
+.box {
+  width: 300px;
 }
 
 .portfolio {
   height: 100vh;
-  background-color: rgb(75 59 64);
+  background-color: rgb(75, 59, 64);
 }
 
 .footer {
   height: 100vh;
-  background-color: rgb(35 31 32);
+  background-color: rgb(35, 31, 32);
   color: white;
 }
 
@@ -65,19 +68,9 @@ li {
   text-decoration: none;
 }
 
-.michele {
-  background-color: rgb(216 209 209);
-  height: 100vh;
-  padding-top: 30px;
-}
-
-.box {
-  width: 300px;
-}
-
 .contact {
   font-size: 20px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 
 .logo {
@@ -86,4 +79,68 @@ li {
 
 .code {
   font-size: 15px;
+}
+
+.right {
+  position: relative;
+}
+
+.img-about {
+  border-radius: 30%;
+  width: 200px;
+  margin: 10px;
+  transition: transform 0.8s ease-in-out;
+  cursor: pointer;
+}
+
+.img-about:hover {
+  transform: rotate(360deg);
+}
+
+.img-about:hover + .info {
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  /* Imposta la larghezza al 100% per .left */
+  .left {
+    width: 100%;
+  }
+
+  /* Regola il padding del footer */
+  .footer {
+    padding-top: 20px;
+  }
+
+  /* Imposta larghezza e altezza per le immagini del profilo e della galleria */
+  .profile,
+  .box {
+    width: 250px;
+  }
+
+  /* Ridimensiona le icone delle skills */
+  .skills {
+    width: 40px;
+  }
+
+  /* Imposta larghezza delle immagini nel portfolio */
+  .img-port {
+    width: 250px;
+    height: auto;
+  }
+
+  /* Regola la larghezza dell'immagine Pisa */
+  .pisa {
+    width: 100%;
+  }
+
+  /* Riduce la dimensione del link CV */
+  .cv {
+    font-size: 18px;
+  }
+
+  /* Riduce la dimensione del testo di contatto */
+  .contact {
+    font-size: 18px;
+  }
 }
