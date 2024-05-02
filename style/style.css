@@ -1,7 +1,7 @@
 .about {
   height: 100vh;
   padding-top: 30px;
-  background-image: url("../img/kindpng_6857577.png");
+  background-color: rgb(191 196 200);
 }
 
 .left {
@@ -81,24 +81,10 @@ li {
   font-size: 15px;
 }
 
-.right {
-  position: relative;
-}
-
 .img-about {
   border-radius: 30%;
   width: 200px;
   margin: 10px;
-  transition: transform 0.8s ease-in-out;
-  cursor: pointer;
-}
-
-.img-about:hover {
-  transform: rotate(360deg);
-}
-
-.img-about:hover + .info {
-  display: block;
 }
 
 @media only screen and (max-width: 768px) {
