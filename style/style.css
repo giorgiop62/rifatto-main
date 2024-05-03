@@ -85,6 +85,8 @@ li {
   border-radius: 30%;
   width: 200px;
   margin: 10px;
+  height: 260px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.9);
 }
 .social {
   font-size: 20px;
